@@ -1,0 +1,248 @@
+/*Navbar styling*/
+
+.side-nav{
+    background: #000;
+    font-family: 'Fjalla One', sans-serif;
+    height: 100vh;
+    padding: 10px 25px;
+    position: fixed;
+    transition:all 0.3s ease-out;
+    width:auto;
+    z-index:3;
+}
+.side-nav-displayed{
+    right:0;
+}
+.side-nav-hidden{
+    right:-500px;
+}
+
+.nav-button{
+    background:#000;
+    border-radius:0 0 0 15px;
+    color:#00009C;
+    font-size: 40px;
+    padding:5px 18px;
+    position:fixed;
+    right:0;
+    top:0;
+    transition:all 0.3s;
+    z-index:2;
+}
+.nav-button:hover,
+.nav-button:active{
+    color:#fff;
+}
+
+.side-nav h1{
+    color:#00009C;
+    font-size: 40px;
+}
+
+.side-nav ul{
+    font-size: 25px;
+    list-style: none;
+}
+
+.side-nav li{
+    padding: 10px;
+    text-align: left;
+}
+.side-nav li a{
+    color:#fff;
+}
+.side-nav li a:hover,
+.side-nav li a:active{
+    color:#00009C;
+    text-decoration: none;
+}
+
+/*  -   -   -   -   -Main body of the page  -   -   -   -   -   */
+
+/*  -   -   -   -   -   Head div styling    -   -   -   -   -   */
+
+.page-body{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+.head-div{
+    height:100vh;
+}
+
+.carousel{
+    height:100%;
+}
+.carousel .carousel-inner{
+    height:100%;
+}
+.carousel .item{
+    height:100%;
+}
+
+.carousel-div-1{
+    background: url("../static_assets/images/head/fotolia_90082101.jpg") fixed no-repeat center;
+    background-size:cover;
+}
+.carousel-div-2{
+    background: url("../static_assets/images/head/fotolia_79982057.jpg") fixed no-repeat center;
+    background-size:cover;
+}
+.carousel-div-3{
+    background: url("../static_assets/images/head/fotolia_94180674.jpg") fixed no-repeat center;
+    background-size:cover;
+}
+
+.head-overlay{
+    align-items: center;
+    background:rgba(0,0,0,0.75);
+    background-size: cover;
+    display: flex;
+    height:100vh;
+    justify-content: center;
+    position:absolute;
+    top:0;
+    width:100%;
+    z-index:1.5;
+}
+.head-overlay-content{
+    color: #fff;
+    text-align: center;
+    width: 100%;
+}
+.head-overlay-content h1{
+    color:#00009C;
+    font-size:75px;
+}
+
+/*  -   -   -   -   -   About div styling   -   -   -   -   -   */
+
+.about-div{
+    color: #222;
+    height:100vh;
+    padding:15px;
+    text-align: center;
+}
+.about-div h1{
+    font-size:40px;
+}
+.about-div .main-name{
+    color:#00009C;
+}
+.about-div p{
+    font-size:16px;
+}
+.about-div img{
+    border-radius: 30px;
+    box-shadow:2px 2px 5px #000;
+    height:350px;
+    margin-top:25px;
+    width: 90%;
+}
+.about-div a{
+    background:#00009C;
+    border:1px solid #fff;
+    border-radius:15px;
+    box-shadow:7px 7px 10px #000 ;
+    color:#fff;
+    font-size:25px;
+    margin-top:-10px;
+    outline:0;
+    padding:15px;
+    transition: all 0.15s
+}
+.about-div a:hover,
+.about-div a:active{
+    background:#00006A;
+    border:1px solid #aaa;
+    box-shadow:8px 8px 10px #000 ;
+    cursor: pointer;
+    position:relative;
+    text-decoration: none;
+    top:-1px
+}
+.about-div a:focus{
+    background:#00009C;
+    border:1px solid #fff;
+    box-shadow:7px 7px 10px #000 ;
+}
+
+/*  -   -   -   -   -   Class div styling   -   -   -   -   -   */
+
+.class-div{
+
+}
+.class-div h1{
+    font-size:40px;
+}
+
+.class-div .class-heading{
+    align-items: center;
+    background: #222;
+    display:flex;
+    height:100px;
+    justify-content: center;
+    width: 100%
+}
+.class-div .class-heading h1{
+    color:#555;
+}
+
+/*Krav Maga*/
+
+.class-div .krav-maga{
+    background: #ccc;
+    color:#222;
+    padding:20px 0;
+    text-align: center;
+}
+.class-div .krav-maga h1{
+    margin: 0 0 15px;
+}
+.class-div .krav-maga p{
+    font-size: 16px;
+    padding:10px 35px
+}
+
+.class-div .krav-maga .div-1 img{
+    box-shadow:2px 2px 5px #000;
+    width:80%;
+}
+
+.class-div .krav-maga .div-2 img{
+    box-shadow:3px 3px 7px #000;
+    height:300px;
+    width:80%;
+}
+.class-div .krav-maga .div-2 h3{
+    text-align: left;
+}
+
+/*Kickboxing*/
+
+.class-div .kick-boxing{
+    background: #222;
+    color:#ccc;
+    padding:20px 0;
+    text-align: center;
+}
+.class-div .kick-boxing h1{
+    margin: 0 0 15px;
+}
+.class-div .kick-boxing p{
+    font-size: 16px;
+    padding:10px 35px
+}
+
+.class-div .kick-boxing .div-1 img{
+    box-shadow:2px 2px 5px #111;
+    width:80%;
+}
+
+.class-div .kick-boxing .div-2 img{
+    box-shadow:3px 3px 7px #000;
+    height:300px;
+    width:80%;
+}
+.class-div .kick-boxing .div-2 h3{
+    text-align: left;
+}
