@@ -19,6 +19,7 @@
 
 .nav-button{
     background:#000;
+    border:1px solid #fff;
     border-radius:0 0 0 15px;
     color:#00009C;
     font-size: 40px;
@@ -38,12 +39,16 @@
     color:#00009C;
     font-size: 40px;
 }
+.side-nav h1 a:hover,
+.side-nav h1 a:active{
+    color:#fff;
+    text-decoration: none;
+}
 
 .side-nav ul{
     font-size: 25px;
     list-style: none;
 }
-
 .side-nav li{
     padding: 10px;
     text-align: left;
@@ -210,7 +215,7 @@
 
 .class-div .krav-maga .div-2 img{
     box-shadow:3px 3px 7px #000;
-    height:300px;
+    height:285px;
     width:80%;
 }
 .class-div .krav-maga .div-2 h3{
@@ -240,9 +245,98 @@
 
 .class-div .kick-boxing .div-2 img{
     box-shadow:3px 3px 7px #000;
-    height:300px;
+    height:285px;
     width:80%;
 }
 .class-div .kick-boxing .div-2 h3{
     text-align: left;
+}
+
+/*MMA*/
+
+.class-div .mma{
+    background: #fff;
+    color:#000;
+    padding:20px 0;
+    text-align: center;
+}
+.class-div .mma h1{
+    margin: 0 0 15px;
+}
+.class-div .mma p{
+    font-size: 16px;
+    padding:10px 35px
+}
+
+.class-div .mma .div-1 img{
+    box-shadow:2px 2px 5px #111;
+    width:80%;
+}
+
+.class-div .mma .div-2 img{
+    box-shadow:3px 3px 7px #000;
+    height:250px;
+    width:80%;
+}
+.class-div .mma .div-2 h3{
+    text-align: left;
+}
+
+/*Inter-1 div*/
+
+.inter-1{
+    background: url("../static_assets/images/inter/inter-1.jpg") center fixed no-repeat;
+    background-size: cover;
+    height:75vh;
+}
+
+/*News div*/
+
+.news-div{
+    background:#fff;
+    color:#222;
+    padding:25px;
+    text-align: center;
+}
+
+.news-div img{
+    border-radius:60px;
+    box-shadow: 4px 4px 7px #222;
+    height:200px;
+    width: 200px;
+}
+
+/*Trainers div*/
+
+.trainer-div{
+    background:#444;
+    color:#ddd;
+    padding:25px;
+    text-align: center;
+}
+
+.trainer-div img{
+    border-radius:15px;
+    box-shadow: 4px 4px 7px #000;
+    height:250px;
+    margin: 15px 0 0;
+}
+.trainer-div p{
+    font-size:18px;
+    margin-top: 15px;
+}
+
+.trainer-div .minus-icons{
+    font-size:40px;
+}
+.trainer-div .minus-icons .fa-circle{
+    color:#222;
+    text-shadow: 3px 3px 7px #000;
+}
+.trainer-div a:hover .minus-icons .fa-circle{
+    color:#660000;
+    text-shadow: 3px 3px 7px #000;
+}
+.trainer-div .minus-icons .fa-minus{
+    color:#fff;
 }
